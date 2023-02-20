@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Share"
+        android:id="@+id/share_icon"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="withText"
+        />
+
+    <item android:title="Save"
+        android:id="@+id/save_icon"
+        android:icon="@drawable/baseline_bookmark_border_24"/>
+
+    <item android:title="Hide"
+        android:id="@+id/hide_icon"
+        android:icon="@drawable/baseline_visibility_off_24"/>
+
+    <item android:title="Report"
+        android:id="@+id/report_icon"
+        android:icon="@drawable/baseline_report_gmailerrorred_24"/>
+</menu>
